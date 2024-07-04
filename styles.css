@@ -1,0 +1,38 @@
+body {
+  background-color: #CDBDB4;
+
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 160px;
+}
+
+a {
+  width: 360px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #94512C;
+
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+
+  border-radius: 12px;
+}
+
+.icones-de-acao {
+  display: flex;
+}
+
+.icone-editar, .icone-excluir {
+  width: 24px;
+}
+
+.item {
+  display: flex;
+}
